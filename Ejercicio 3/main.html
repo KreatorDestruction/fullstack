@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio de javscript</title>
+    <script src="script.js" ></script>
+    <style type="text/css">
+	  .boton_personalizado{
+	    text-decoration: none;
+	    padding: 10px;
+	    font-weight: 600;
+	    font-size: 20px;
+	    color: #ffffff;
+	    background-color: #1883ba;
+	    border-radius: 6px;
+	    border: 2px solid #0016b0;
+	  }
+	  .boton_personalizado:hover{
+	    color: #1883ba;
+	    background-color: #ffffff;
+	  }
+	</style>
+</head>
+<body>
+	<div>
+		<p>Aquí un párrafo de texto situado antes de la imagen, dentro de un div contenedor</p>
+		<img onclick="mostrarMensaje1()" src="http://i.imgur.com/afC0L.jpg" alt="Notepad++" title="Notepad++, un útil editor de texto"/>
+		<p onclick="mostrarMensaje2()">Aquí otro párrafo de texto. JavaScript es un lenguaje utilizado para dotar de efectos dinámicos a las páginas web.
+		</p>
+		<p>
+		Introduce tus apellidos: <input type="text" name="apellidos" />
+		</p>
+		<p>
+		Introduce tus nombres: <input type="text" name="nombres" />
+		</p>
+	</div>
+	<a class="boton_personalizado" href="https://sautechltda.com" onclick="mostrarMensaje1()">click aqui</a>
+</body>
+</html>

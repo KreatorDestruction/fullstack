@@ -1,0 +1,79 @@
+
+/* selectores simples */
+p
+{
+	color: red;
+}
+h1
+{
+	color:blue;
+}
+
+/* selectores de clases */
+
+/* El elemento con la clase "first" está en
+negrita */
+
+.first {
+
+font-weight: bold;
+
+}
+
+/* Todos los elementos con la clase "done" están
+tachados */
+
+.done {
+
+text-decoration: line-through;
+
+}
+
+/* selectores de id */
+
+#polite {
+
+font-family: cursive;
+
+}
+
+#rude {
+
+font-family: monospace;
+
+text-transform: uppercase;
+
+}
+/* Selectores de atributos*/
+
+[vegetales]
+{
+	color: green;
+} 
+
+[vegetales="liquido"]
+{
+	background-color: goldenrod;
+} 
+
+[vegetales~="picante"]
+{
+	color: red;
+} 
+a:
+{
+	color: blue;
+	font-weight: bold;
+}
+a:visited
+{
+	color: yellow;
+}
+
+a:hover,
+a:active,
+a:focus
+{
+	color: darkred;
+	font-weight: bold;
+}
